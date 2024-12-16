@@ -1,10 +1,10 @@
 import { Config } from "./src/config";
 
 export const defaultConfig: Config = {
-  url: "",
-  match: "/**",
+  url: "https://www.mfa.gov.lv/en",
+  match: "https://www.mfa.gov.lv/en/**",
   maxPagesToCrawl: 99999999,
-  outputFileName: "output.json",
+  outputFileName: "mfa.json",
   maxTokens: 2000000,
   selector: "body"
 };
