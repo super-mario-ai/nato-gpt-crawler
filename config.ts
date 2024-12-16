@@ -1,9 +1,9 @@
 import { Config } from "./src/config";
 
 export const defaultConfig: Config = {
-  url: "https://www.sm.ee/en",
-  match: "https://www.sm.ee/en**",
-  maxPagesToCrawl: 99999,
+  url: "https://mkm.ee/en",
+  match: "https://mkm.ee/en/**",
+  maxPagesToCrawl: 9999999,
   outputFileName: "sm-ee.json",
   maxTokens: 2000000,
   selector: "body",
