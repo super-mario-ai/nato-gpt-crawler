@@ -1,10 +1,10 @@
 import { Config } from "./src/config";
 
 export const defaultConfig: Config = {
-  url: "https://www.kul.ee/en",
-  match: "https://www.kul.ee/en/**",
+  url: "https://www.sm.ee/en",
+  match: "https://www.sm.ee/en**",
   maxPagesToCrawl: 999999,
-  outputFileName: "kul-ee.json",
+  outputFileName: "sm-ee.json",
   maxTokens: 2000000,
   selector: "body",
 };
