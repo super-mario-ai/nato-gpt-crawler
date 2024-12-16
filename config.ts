@@ -1,10 +1,10 @@
 import { Config } from "./src/config";
 
 export const defaultConfig: Config = {
-  url: "",
-  match: "/**",
+  url: "https://vm.ee/en",
+  match: "https://vm.ee/en/**",
   maxPagesToCrawl: 99999999,
-  outputFileName: "output.json",
+  outputFileName: "vm-ee.json",
   maxTokens: 2000000,
   selector: "body"
 };
