@@ -1,10 +1,10 @@
 import { Config } from "./src/config";
 
 export const defaultConfig: Config = {
-  url: "",
-  match: "/**",
+  url: "https://www.fin.ee/en/",
+  match: "https://www.fin.ee/en/**",
   maxPagesToCrawl: 99999999,
-  outputFileName: "output.json",
+  outputFileName: "fin.json",
   maxTokens: 2000000,
   selector: "body"
 };
