@@ -1,10 +1,10 @@
 import { Config } from "./src/config";
 
 export const defaultConfig: Config = {
-  url: "",
-  match: "/**",
+  url: "https://transport.lv/",
+  match: "https://transport.lv/**",
   maxPagesToCrawl: 99999999,
-  outputFileName: "output.json",
+  outputFileName: "transport.json",
   maxTokens: 2000000,
   selector: "body",
 };
